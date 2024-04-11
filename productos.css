@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #f2f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-principal {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    flex-shrink: 0;
+    width: 450px;
+    float: left; /* Hace que la imagen se alinee a la izquierda */
+    margin-right: 20px; /* Añade un espacio entre la imagen y el texto */
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.texto {
+    overflow: hidden; /* Evita que el texto se desborde de la caja principal */
+}

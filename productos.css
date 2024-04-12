@@ -37,3 +37,14 @@ body {
 .texto {
     overflow: hidden; /* Evita que el texto se desborde de la caja principal */
 }
+
+
+/* Propiedades del formulario */
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vhx;
+    height: 500px;
+}

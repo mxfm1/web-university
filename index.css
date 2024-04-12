@@ -154,14 +154,41 @@ body{
 }
 
 .txt_field input{
-    width: 80%;
+    width: 90%;
     height: 50px;
     border: none;
     outline: none;
     color: var(--color-primario);
     font-size: 19px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border: #012B3A;
+    border-radius: 5px;
+    border: 2px solid transparent; /* Cambia el color del borde */
+    transition-property: border;
+    transition-duration: 0.3s; /* Duración de la transición */
+    transition-delay: 0.1s; /
 }
 
-.txt_field label{
-
+.txt_field input:focus{
+    border: 2px solid var(--color-primario);
 }
+
+.login-button-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+.login-button{
+    margin-top: 20px;
+    background-color: #012B3A;
+    color: var(--color-blanco);
+    border-radius: 14px;
+    padding: 12px 10px;
+    font-size: 16px;
+}
+.pass{
+    margin-top: 40px;
+    font-size: 20px;
+}
+

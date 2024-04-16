@@ -6,6 +6,27 @@
     --color-blanco: #fff;
 }
 
+.brand-logo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.icon-wrapper{
+    padding: 0 20px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.icon-wrapper p{
+    color: rgba(22, 24, 35, .34);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0 40px;
+}
 .navbar{
     background-color: var(--color-primario);
 }
@@ -87,9 +108,6 @@ body {
     margin: 0;
 }
 
-.footer-items li{
-    
-}
 .footer-items li a {
     display: block; /* Convierte los enlaces en bloques */
     padding: 5px 5px; /* Ajusta el espaciado interno */
@@ -145,12 +163,8 @@ body{
 
 .form-inner-container h1{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 100px;
-}
-
-.form-inner-container form{
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--color-primario);
 }
 
 .txt_field input{
@@ -160,7 +174,7 @@ body{
     outline: none;
     color: var(--color-primario);
     font-size: 19px;
-    margin-top: 20px;
+    margin-top: 12px;
     padding-left: 20px;
     border: #012B3A;
     border-radius: 5px;
@@ -176,8 +190,7 @@ body{
 
 .login-button-container{
     display: flex;
-    justify-content: end;
-    margin-right: 40px;
+    justify-content: center;
 }
 .login-button{
     margin-top: 20px;
@@ -186,9 +199,64 @@ body{
     border-radius: 14px;
     padding: 12px 10px;
     font-size: 16px;
+    width: 200px;
 }
 .pass{
     margin-top: 40px;
     font-size: 20px;
 }
 
+.link-container{
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+.signup_link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+}
+
+.signup_link a{
+    font-size: 18px;
+}
+.link-container a{
+    text-decoration: none;
+    color: #012B3A;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.login-separator{
+    margin: 20px auto;
+    border: 1px solid var(--color-primario);
+    width: 70%;
+}
+
+.carousel-item span{
+    font-size: 70px;
+}
+.carousel-item p{
+    color: var(--color-blanco);
+    font-size: 20px;
+    text-align: center;
+}
+
+.login-container{
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button{
+    background: #000;
+}
+
+.login-button:hover{
+    background-color: aliceblue;
+    color: #000;
+    transition: 0.7s;
+    border: 1px solid #000;
+}

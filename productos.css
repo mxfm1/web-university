@@ -8,43 +8,58 @@ body {
     width: 100%;
     min-height: 100vh;
     background: #f2f0f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .caja-principal {
     width: 100%;
-    max-width: 800px;
-    background: #fff;
-    border-radius: 20px;
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
+    border-radius: 12px;
+    margin: 0 70px;
+    margin-top: 40px;
+
 }
 
 .imagen {
     flex-shrink: 0;
-    width: 450px;
+    width: 720px;
     float: left; /* Hace que la imagen se alinee a la izquierda */
-    margin-right: 20px; /* Añade un espacio entre la imagen y el texto */
-}
-
-.imagen img {
-    width: 100%;
+    overflow: hidden;
+    margin-right: 40px;
 }
 
 .texto {
     overflow: hidden; /* Evita que el texto se desborde de la caja principal */
 }
 
+/* TITULO */
+.title-container{
+    display: block;
+    margin-left: 40px;
+}
 
-/* Propiedades del formulario */
+.title-container h1{
+    font-family: 'Roboto' sans-serif;
+    font-size: 44px;
+}
 
-.form-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vhx;
+.carousel-inner{
+    border-radius: 12px;
+}
+.carousel-inner img{
     height: 500px;
+}
+
+.body-card-container{
+    margin-top: 40px;
+    padding-left: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.service-list{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.imagen{
+    margin-top: 12px;
 }
